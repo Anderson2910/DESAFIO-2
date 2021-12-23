@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ME ACHA! BUSCA DE ENDEREÇO</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h1>ME ACHA!</h1>
+    <p>ENCONTRE UM ENDEREÇO PELO NÚMERO DO CEP</p>
+    <span class="material-icons-outlined">travel_explore</span>
+  </header>
+  <main>
+    <form>
+      <label for="cep">Cep</label>
+      <input type="text" name="cep" value="" required>
+      <label for="rua">Rua</label>
+      <input type="text" name="rua" value="" disabled>
+      <label for="bairro">Bairro</label>
+      <input type="text" name="bairro" value="" disabled>
+      <label for="cidade">Cidade</label>
+      <input type="text" name="cidade" value="" disabled>
+      <label for="estado">Estado</label>
+      <input type="text" name="estado" value="" disabled>
+      <input class="buscar" type="submit" name="buscar" value="BUSCAR">
+    </form>
+  </main>
+</body>
+</html>
